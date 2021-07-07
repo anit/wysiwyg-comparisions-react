@@ -3,7 +3,12 @@ import { CKEditor } from 'ckeditor4-react';
 
 function CKEditor4(props) {
   return (
-    <CKEditor initData={props.value} />
+    <CKEditor
+      initData={props.value}
+      config={{
+        allowedContent: true,
+      }}
+    />
   );
 }
 

@@ -45,3 +45,6 @@
   margin-top: 100px;
   background: #ccc;
 }
+.jodit-container {
+  text-align: left;
+}
