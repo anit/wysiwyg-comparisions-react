@@ -5,7 +5,7 @@ const CKEditor5 = ({ data }) => {
   return (
     <div className="editor-wrapper">
       <h3>CKEditor 5</h3>
-      <CKEditor editor={ClassicEditor} data={data} />
+      <CKEditor editor={ClassicEditor} value={data} />
     </div>
   );
 };
