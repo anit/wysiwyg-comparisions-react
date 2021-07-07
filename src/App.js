@@ -26,7 +26,7 @@ function App() {
         <h3>Jodit</h3>
         <Jodit value={data} />
       </div>
-      <div>
+      <div className="editor-wrapper">
         <h3>Sun Editor</h3>
         <SunEditorComponent value={data} />
       </div>
