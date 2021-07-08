@@ -48,3 +48,9 @@
 .jodit-container {
   text-align: left;
 }
+
+.custom-editor {
+  background: white;
+  min-height: 300px;
+  text-align: left;
+}
